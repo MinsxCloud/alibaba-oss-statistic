@@ -1,0 +1,24 @@
+Software documentation
+1.OSS Statistic is used to help you make statistics of specifying IP's OSS usage charges
+
+Software running environment
+1.You need to install Java more than 8 of the environment
+2.You need to configure ../bin to the system environment variable
+
+Parameter description
+1.[start] start date time like : 2017-10-13 00:00:00
+2.[end] end date time like : 2017-10-14 00:00:00
+3.[ip] You need to make statistics of whitch IP's OSS usage
+
+Sample description
+1.ost start 2017-10-13 00:00:00 end 2017-10-13 23:00:00 ip 120.212.99.23
+
+Other description
+1.You can not specify the start time and end time, the default will 
+make statistics of the day OSS usage, you can also not specify IP, the default 
+will  make statistics of all the OSS usage
+
+2.You can config OSS configration properties in ../bin/config/config.properties
+
+3.If your service PC and OSS are in an intranet, it is recommended to configure 
+the OSS intranet address(EndPoint) in ../bin/config/config.properties
