@@ -4,7 +4,7 @@ Alibaba-OSS-Statistic 是一款用于统计阿里云OSS使用费用的工具
 ### 软件说明
 - 软件名称：阿里巴巴OSS统计工具
 - 版本号：1.0.0
-- 开发者：www.openstring.cc
+- 开发者：www.minsx.com
 - 语言：Java
 - 功能：统计指定时间段指定IP所使用的OSS详情与费用
 - 开源协议：Apache License Version 2.0 
